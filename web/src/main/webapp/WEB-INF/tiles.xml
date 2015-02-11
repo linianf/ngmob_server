@@ -1,0 +1,31 @@
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="empty.page" template="/template/emptyTemplate.jsp">
+		
+	</definition>
+	
+	<definition name="niubang.withdraw" extends="empty.page">
+		<put-attribute name="title" value="钱宝网—看广告，做任务，赚外快" />
+		<put-attribute name="body" value="/manage/withdraw.jsp" />
+	</definition>
+	<definition name="niubang.mai3ka" extends="empty.page">
+		<put-attribute name="title" value="钱宝网—看广告，做任务，赚外快" />
+		<put-attribute name="body" value="/manage/mai3ka.jsp" />
+	</definition>
+	<definition name="niubang.kaipiao" extends="empty.page">
+		<put-attribute name="title" value="钱宝网—看广告，做任务，赚外快" />
+		<put-attribute name="body" value="/manage/kaipiao.jsp" />
+	</definition>
+	<definition name="niubang.mai4ka" extends="empty.page">
+		<put-attribute name="title" value="钱宝网—看广告，做任务，赚外快" />
+		<put-attribute name="body" value="/manage/mai4ka.jsp" />
+	</definition>
+	<definition name="niubang.zhifu" extends="empty.page">
+		<put-attribute name="title" value="钱宝网—看广告，做任务，赚外快" />
+		<put-attribute name="body" value="/manage/zhifu.jsp" />
+	</definition>
+</tiles-definitions>
